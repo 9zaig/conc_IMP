@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-excel_url = './data/20C.xlsx' #파일 이름 바꾸세요
+excel_url = './data/50C.xlsx' #파일 이름 바꾸세요
 # current= pd.read_excel(excel_url,sheet_name=10,usecols='A',nrows=200)
 df= pd.read_excel(excel_url,sheet_name=None,usecols='C',nrows=200)
 df_all=pd.concat(df,axis=1)
